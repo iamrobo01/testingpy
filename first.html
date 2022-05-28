@@ -3,6 +3,38 @@
 <head>
 	<title>first.html</title>
 	<style>
+		nav{
+			text-decoration:none;
+			margin:0px;
+			padding: 0px;
+			text-decoration: none;
+		}
+		nav ul{
+			background-color: aqua;
+			border-radius:9px;
+
+		}
+		nav ul li{
+			color:darkred;
+			margin: 10px;
+			padding: 5px;
+			list-style-type: none;
+			text-decoration: none;
+			display: inline-block;
+			
+		}
+		nav a{
+			color:blueviolet;
+			text-decoration: none;
+			display: inline-block;
+			background-color:lightcyan;
+			padding: 9px;
+			border-radius: 7px;
+			margin:5px;
+		}
+		nav a:hover{
+			background-color: bisque;
+		}
 		main{
 			text-align:center;
 			}
@@ -15,6 +47,15 @@
 	</style>
 </head>
 <body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Learn</a></li>
+			<li><a href="#">Blogs</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
 	<header>
 		<div>
 			<h1>RealCodeTimex</h1>
@@ -31,8 +72,17 @@
 		</div>
 	</main>
 	<footer>
+		<div class="down">
+			<ul class="downlist">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">TECHY</a></li>
+				<li><a href="#">ACCESSORIES</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">CONTACTS</a></li>
+			</ul>
+		</div>
 		<div>
-			<h2>this footer of website</h2>
+			<h2>this is footer of website</h2>
 		</div>
 	</footer>
 </body>
